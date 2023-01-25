@@ -1,0 +1,19 @@
+.root {
+  height: 100%;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgb(255 255 255 / 30%);
+}
+
+.header {
+  padding: 0 !important;
+}
+
+.content {
+  margin: 24px 16px;
+  padding: 24px;
+  min-height: 280px;
+}
