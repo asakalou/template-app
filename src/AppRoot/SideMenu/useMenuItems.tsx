@@ -1,6 +1,11 @@
 import { ItemType } from 'antd/es/menu/hooks/useItems'
 import { useMemo } from 'react'
-import { UserOutlined, CarOutlined, DingdingOutlined } from '@ant-design/icons'
+import {
+  UserOutlined,
+  CarOutlined,
+  DingdingOutlined,
+  OrderedListOutlined,
+} from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 
 export const useMenuItems = (): ItemType[] =>
@@ -20,6 +25,11 @@ export const useMenuItems = (): ItemType[] =>
         key: 'brands',
         icon: <DingdingOutlined />,
         label: <Link to="/brands">Brands</Link>,
+      },
+      {
+        key: 'recipes',
+        icon: <OrderedListOutlined />,
+        label: <Link to="/recipes">Recipes</Link>,
       },
     ],
     []

@@ -4,6 +4,7 @@ import { AppRoot } from '../AppRoot'
 import { VehiclesPage } from '../pages/VehiclesPage'
 import { BrandsPage } from '../pages/BrandsPage'
 import { DashboardPage } from '../pages/DashboardPage'
+import { RecipesPage } from '../pages/RecipesPage'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/brands',
         element: <BrandsPage />,
+      },
+      {
+        path: '/recipes',
+        element: <RecipesPage />,
       },
     ],
   },
